@@ -3,23 +3,29 @@
 }
 
 .container{
-    width: 30%;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 3rem;
 }
 
 .card{
     border: 5px solid;
     width: 30rem;
     height: 30rem;
-    align-items: center;
+    display: flex;
+    flex-direction: column;  /* Stacks items vertically */
+    justify-content: center; /* Aligns items vertically in order */
+    align-items: center;     /* Aligns items horizontally */
+    gap: 10px;    
     box-sizing: border-box;
 }
 
 .card-header{
-    text-align: center;
+    font-size: 2rem;
 }
 
 .card-image{
-
+    width: 350px;
+    height: 225px;
 }
