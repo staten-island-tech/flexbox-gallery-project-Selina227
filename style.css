@@ -2,11 +2,19 @@
     background-color: aliceblue;
 }
 
+.head{
+    font-size: 8rem;
+    background-image: ;
+    text-align: center;
+}
+
 .container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 3rem;
+   
+
 }
 
 .card{
@@ -20,6 +28,7 @@
     gap: 10px;    
     box-sizing: border-box;
     border-radius: 5rem;
+    box-shadow: 10px 10px 8px 10px #888888;
     background-image: ;
 }
 
@@ -32,3 +41,4 @@
     height: 225px;
     opacity: 70%;
 }
+
