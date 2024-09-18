@@ -1,5 +1,6 @@
 *{
     background-color: aliceblue;
+    font-family: 'Kanit';
 }
 
 .head{
@@ -13,8 +14,6 @@
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 3rem;
-   
-
 }
 
 .card{
@@ -29,7 +28,6 @@
     box-sizing: border-box;
     border-radius: 5rem;
     box-shadow: 10px 10px 8px 10px #888888;
-    background-image: ;
 }
 
 .card-header{
@@ -41,4 +39,15 @@
     height: 225px;
     opacity: 70%;
 }
+
+.background{
+    background-image: url(img/blue.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card:hover{
+    transform: scale(1.05);
+    opacity: 0.3;
+}
+
 
