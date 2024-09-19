@@ -1,5 +1,6 @@
 *{
-    background-color: aliceblue;
+    background-image: url(img/link.jpg);
+    background-size: cover;
     font-family: 'Kanit';
 }
 
@@ -17,7 +18,7 @@
 }
 
 .card{
-    border: cornflowerblue solid 5px;
+    border: rgb(90, 94, 103) solid 5px;
     width: 30rem;
     height: 30rem;
     display: flex;
@@ -40,14 +41,31 @@
     opacity: 70%;
 }
 
-.background{
+#blue{
     background-image: url(img/blue.jpg);
     background-position: center;
     background-size: cover;
 }
+
+#red{
+    background-image: url(img/red.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#orange{
+    background-image: url(img/orange.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 .card:hover{
     transform: scale(1.05);
     opacity: 0.3;
+}
+
+#blue:hover{
+    transform: skew(-5deg, -5deg) scale(1.5);
 }
 
 
