@@ -1,5 +1,5 @@
 *{
-    background-image: url(img/link.jpg);
+    background-image: url(img/background.jpg);
     background-size: cover;
     font-family: 'Kanit';
 }
@@ -28,7 +28,7 @@
     gap: 10px;    
     box-sizing: border-box;
     border-radius: 5rem;
-    box-shadow: 10px 10px 8px 10px #717070;
+    box-shadow: 10px 8px 8px 10px #717070;
 }
 
 .card-header{
@@ -61,7 +61,6 @@
 
 .card:hover{
     transform: scale(1.05);
-    opacity: 0.3;
 }
 
 #blue:hover{
