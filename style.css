@@ -1,12 +1,11 @@
 *{
     background-image: url(img/background.jpg);
-    background-size: cover;
+    background-position: center;
     font-family: 'Kanit';
 }
 
 .head{
-    font-size: 8rem;
-    background-image: ;
+    font-size: 7rem;
     text-align: center;
 }
 
@@ -33,12 +32,17 @@
 
 .card-header{
     font-size: 2rem;
+    
 }
 
 .card-image{
     width: 350px;
     height: 225px;
     opacity: 70%;
+}
+
+.card-text{
+    font-size: 1.5rem;
 }
 
 #blue{
@@ -64,7 +68,7 @@
 }
 
 #blue:hover{
-    transform: scale(1.5);
+    transform: scale(1.05);
 }
 
 
