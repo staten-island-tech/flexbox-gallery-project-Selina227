@@ -62,13 +62,21 @@
     background-position: center;
     background-size: cover;
 }
-
-.card:hover{
-    transform: scale(1.05);
+   
+#hover1:hover {
+    background-color: darkblue;
+    color: white;
 }
 
-#blue:hover{
-    transform: scale(1.05);
+#hover2:hover {
+    transition: border-color 0.3s ease;
+    border-color: darkgreen;
 }
 
+#hover3:hover {
+    transform: rotate(15deg);
+}
 
+#hover4:hover {
+    transform: scale(1.05);
+}
