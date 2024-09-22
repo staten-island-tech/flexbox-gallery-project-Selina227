@@ -1,11 +1,11 @@
 *{
-    background-image: url(img/background.jpg);
+    background-color: aliceblue;
     background-position: center;
     font-family: 'Kanit';
 }
 
 .head{
-    font-size: 7rem;
+    font-size: 5rem;
     text-align: center;
 }
 
@@ -13,7 +13,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    row-gap: 3rem;
+    row-gap: 4rem;
 }
 
 .card{
@@ -21,9 +21,9 @@
     width: 30rem;
     height: 30rem;
     display: flex;
-    flex-direction: column;  /* Stacks items vertically */
-    justify-content: center; /* Aligns items vertically in order */
-    align-items: center;     /* Aligns items horizontally */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 10px;    
     box-sizing: border-box;
     border-radius: 5rem;
@@ -31,8 +31,7 @@
 }
 
 .card-header{
-    font-size: 2rem;
-    
+    font-size: 2rem; 
 }
 
 .card-image{
@@ -62,21 +61,84 @@
     background-position: center;
     background-size: cover;
 }
-   
-#hover1:hover {
-    background-color: darkblue;
-    color: white;
+
+#blue2{
+    background-image: url(img/blue.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-#hover2:hover {
-    transition: border-color 0.3s ease;
-    border-color: darkgreen;
+#purple2{
+    background-image: url(img/purple.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-#hover3:hover {
-    transform: rotate(15deg);
+#orange2{
+    background-image: url(img/orange.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
-#hover4:hover {
-    transform: scale(1.05);
+#purple:hover {
+    transition: transform 1s ease;
+    transform: scale(1.1);
 }
+
+#blue:hover {
+    transition: border-color 1s ease;
+    border: solid 10px rgb(16, 16, 178);
+}
+
+#orange:hover {
+    transition: transform 1.5s ease;
+    transform: rotate(360deg);
+}
+
+#purple2:hover {
+    transform: translateY(7px);
+    box-shadow: 20px 20px rgb(195, 126, 216);
+}
+
+#orange2:hover {
+    transition: transform 0.7s ease;
+    transform: skew(10deg, 10deg);
+}
+
+.head {
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .head {
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+
