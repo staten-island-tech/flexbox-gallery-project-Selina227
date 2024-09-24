@@ -82,12 +82,13 @@ body{
 
 #purple:hover {
     transition: transform 1s ease;
-    transform: scale(1.1);
+    transform: scale(1.1) translateX(40px);
 }
 
 #blue:hover {
     transition: border-color 1s ease;
     border: solid 10px blueviolet;
+    transform: scale(1.1);
 }
 
 #orange:hover {
