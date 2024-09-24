@@ -1,6 +1,5 @@
-*{
-    background-color: aliceblue;
-    background-position: center;
+body{
+    background-image: url(img/background.jpg);
     font-family: 'Kanit';
 }
 
@@ -19,13 +18,12 @@
 
 .card{
     border: rgb(90, 94, 103) solid 5px;
-    width: 25rem;
-    height: 25rem;
+    width: 22rem;
+    height: 22rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 5px;    
+    align-items: center; 
     box-sizing: border-box;
     border-radius: 5rem;
     box-shadow: 10px 8px 8px 10px #717070;
@@ -36,13 +34,14 @@
 }
 
 .card-image{
-    width: 350px;
-    height: 225px;
+    width: 325px;
+    height: 200px;
     opacity: 70%;
 }
 
 .card-text{
     font-size: 1rem;
+    background-color:aliceblue;
 }
 
 #blue{
@@ -139,7 +138,25 @@
     }
     .head {
         font-size: 3rem;
-        text-align: center;
     }
 }
 
+@media screen and (max-width: 350px) {
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card {
+        width: 19rem;
+        height: 19rem;
+        gap: 0.05px;
+    }
+    .card-image {
+        width: 275px;
+        height: 150px;
+    }
+    .head {
+        font-size: 3rem;
+    }
+}
