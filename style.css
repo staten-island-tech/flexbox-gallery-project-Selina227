@@ -18,8 +18,8 @@ body{
 
 .card{
     border: rgb(90, 94, 103) solid 5px;
-    width: 22rem;
-    height: 22rem;
+    width: 25rem;
+    height: 25rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,7 +36,7 @@ body{
 .card-image{
     width: 325px;
     height: 200px;
-    opacity: 70%;
+    opacity: 0.7;
 }
 
 .card-text{
@@ -87,7 +87,7 @@ body{
 
 #blue:hover {
     transition: border-color 1s ease;
-    border: solid 10px rgb(16, 16, 178);
+    border: solid 10px blueviolet;
 }
 
 #orange:hover {
@@ -97,7 +97,7 @@ body{
 
 #purple2:hover {
     transform: translateY(7px);
-    box-shadow: 20px 20px rgb(195, 126, 216);
+    box-shadow: 20px 20px plum;
 }
 
 #orange2:hover {
@@ -110,6 +110,7 @@ body{
     animation-duration: 2s;
     animation-iteration-count: infinite;
 }
+
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
         transform: translateY(0);
@@ -141,7 +142,7 @@ body{
     }
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 375px) {
     .container {
         flex-direction: column;
         justify-content: center;
