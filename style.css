@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-image: url(img/background.jpg);
     font-family: 'Kanit';
@@ -44,37 +47,18 @@ body{
     background-color:aliceblue;
 }
 
-#blue{
+#blue, #blue2 {
     background-image: url(img/blue.jpg);
     background-position: center;
     background-size: cover;
 }
-
-#purple{
+#purple, #purple2 {
     background-image: url(img/purple.jpg);
     background-position: center;
     background-size: cover;
 }
 
-#orange{
-    background-image: url(img/orange.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-#blue2{
-    background-image: url(img/blue.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-#purple2{
-    background-image: url(img/purple.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
-#orange2{
+#orange, #orange2{
     background-image: url(img/orange.jpg);
     background-position: center;
     background-size: cover;
