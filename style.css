@@ -18,8 +18,8 @@ body{
 
 .card{
     border: rgb(90, 94, 103) solid 5px;
-    width: 25rem;
-    height: 25rem;
+    width: 22rem;
+    height: 22rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
